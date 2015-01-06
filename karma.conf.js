@@ -11,9 +11,6 @@ module.exports = function(config) {
 		plugins: [
 			'karma-webpack',
 			'karma-jasmine',
-
-			'karma-coverage',
-
 			'karma-chrome-launcher',
 			'karma-phantomjs-launcher'
 		],
@@ -27,7 +24,7 @@ module.exports = function(config) {
 			'src/**/*.js': ['webpack']
 		},
 
-		reporters: ['progress', 'coverage'],
+		reporters: ['progress'],
 
 		// list of files / patterns to load in the browser
 		files: [
@@ -53,7 +50,7 @@ module.exports = function(config) {
 					exclude: /node_modules/i,
 					loader: 'traceur?experimental&arrayComprehension&runtime'
 				}, {
-					test: /(phaser-arcade-physics|phaser-debug|jquery|query.signalR.min)\.js$/i,
+					test: /(phaser-arcade-physics|phaser-debug|jquery|jquery.signalR.min)\.js$/i,
 					loader: 'script'
 				}, {
 					test: /\.json$/i,
@@ -77,10 +74,6 @@ module.exports = function(config) {
 				}, {
 					test: /\.audiosprite\.json$/i,
 					loader: 'file?name=[path][name].[ext]?[hash]'
-				}],
-				postLoaders: [{ // << add subject as webpack's postloader
-					test: /\.js$/,
-					loader: 'istanbul-instrumenter'
 				}]
 			},
 			node: {
@@ -88,15 +81,13 @@ module.exports = function(config) {
 			},
 			resolve: {
 				alias: {
-					'jquery': path.join(__dirname, 'node_modules/jquery/dist/jquery.js'),
-					'signalr': path.join(__dirname, 'src/common/jquery.signalR.min.js')
+					'jquery': path.join(__dirname, 'node_modules/jquery/dist/jquery.js')
 				},
 				extensions: ['', '.js']
 			},
 			plugins: [
 				new webpack.ProvidePlugin({
-					Promise: 'bluebird',
-					signalr: 'signalr'
+					Promise: 'bluebird'
 				})
 			]
 		},
@@ -134,7 +125,7 @@ module.exports = function(config) {
 		// - Safari (only Mac)
 		// - PhantomJS
 		// - IE (only Windows)
-		browsers: ['PhantomJS'],
+		browsers: ['Chrome'],
 
 
 		// Continuous Integration mode
