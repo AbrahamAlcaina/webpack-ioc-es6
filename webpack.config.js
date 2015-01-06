@@ -1,3 +1,5 @@
+'use strict';
+
 var fs = require('fs');
 var path = require('path');
 var webpack = require('webpack');
@@ -63,7 +65,7 @@ module.exports = {
 		function() {
 			this.plugin('done', function(stats) {
 				require('fs').writeFileSync(
-					path.join(__dirname, '.work/stats.json'),
+					path.join(__dirname, 'dist/stats.json'),
 					JSON.stringify(stats.toJson()));
 				});
 		}
