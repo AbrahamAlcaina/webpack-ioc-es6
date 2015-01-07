@@ -6,10 +6,12 @@ import B from './b';
 export default class A {
 	constructor(b){
 		this.b = b;
+		this.isDoExecuted = false;
 	}
 
 	do(){
 		console.log('A');
 		this.b.do();
+		this.isDoExecuted = true;
 	}
 }

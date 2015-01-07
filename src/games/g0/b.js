@@ -7,10 +7,12 @@ import C from './c';
 export default class B {
 	constructor(c){
 		this.c = c;
+		this.isDoExecuted = false;
 	}
 
 	do(){
 		console.log('B');
 		this.c.do();
+		this.isDoExecuted = true;
 	}
 }
