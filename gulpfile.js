@@ -38,6 +38,14 @@ gulp.task('test', function(done) {
     }, done);
 });
 
+gulp.task('travis', function(done) {
+    karma.start({
+        configFile: __dirname + '/karma.conf.js',
+        singleRun: true, 
+        browsers: ['Firefox']
+    }, done);
+});
+
 gulp.task('tdd', function(done) {
     karma.start({
         configFile: __dirname + '/karma.conf.js',

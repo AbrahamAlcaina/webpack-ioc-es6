@@ -12,6 +12,7 @@ module.exports = function(config) {
 			'karma-webpack',
 			'karma-jasmine',
 			'karma-chrome-launcher',
+			'karma-firefox-launcher',
 			'karma-phantomjs-launcher'
 		],
 		// base path, that will be used to resolve files and exclude
