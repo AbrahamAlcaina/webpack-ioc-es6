@@ -48,7 +48,7 @@ module.exports = function(config) {
 				loaders: [{
 					test: /\.js$/i,
 					exclude: /node_modules/i,
-					loader: 'traceur?experimental&arrayComprehension&runtime'
+					loader: 'traceur?experimental&arrayComprehension&annotations&runtime'
 				}, {
 					test: /(phaser-arcade-physics|phaser-debug|jquery|jquery.signalR.min)\.js$/i,
 					loader: 'script'
