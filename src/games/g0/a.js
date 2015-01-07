@@ -1,6 +1,6 @@
 'use strict';
 import {Inject} from '../../di';
-import B from 'b';
+import B from './b';
 
 @Inject(B)
 export default class A {
