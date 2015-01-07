@@ -1,7 +1,15 @@
 'use strict';
 
-describe('first test', ()=>{
-	it('t0', ()=>{
-		expect(true).toBe(false);
+import {
+	Injector
+}
+from '../../di';
+import A from './a';
+
+describe('first test', () => {
+	it('t0', () => {
+		var injector = new Injector();
+		var a = injector.get(A);
+		expect(a).not.toBeUndefined();
 	});
 });

@@ -1,9 +1,9 @@
 'use strict';
 
 import {Injector} from '../../di';
-import A from 'a.js';
+import A from './a';
 
-function main(){
+export function main(){
 	var injector = new Injector();
 	var a = injector.get(A);
 	a.do();
