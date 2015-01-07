@@ -1,9 +1,6 @@
 'use strict';
 
-import {
-	Injector
-}
-from '../../di';
+import { Injector } from '../../di';
 import A from './a';
 
 describe('test annotations', () => {
