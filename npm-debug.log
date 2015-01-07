@@ -1,0 +1,419 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/abraham/Documents/Git/webpack-ioc-es6',
+5 verbose install   [ 'bluebird',
+5 verbose install     'console-polyfill',
+5 verbose install     'httpplease',
+5 verbose install     'jquery',
+5 verbose install     'phaser',
+5 verbose install     'audiosprite',
+5 verbose install     'css-loader',
+5 verbose install     'es5-shim',
+5 verbose install     'file-loader',
+5 verbose install     'gulp',
+5 verbose install     'gulp-karma',
+5 verbose install     'gulp-plato',
+5 verbose install     'gulp-util',
+5 verbose install     'gulp-zip',
+5 verbose install     'html-webpack-plugin',
+5 verbose install     'ink-docstrap',
+5 verbose install     'jasmine-core',
+5 verbose install     'json-loader',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-coverage',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-htmlfile-reporter',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'karma-requirejs',
+5 verbose install     'karma-traceur-preprocessor',
+5 verbose install     'karma-webpack',
+5 verbose install     'less-loader',
+5 verbose install     'localtunnel',
+5 verbose install     'phantomjs',
+5 verbose install     'phaser-debug',
+5 verbose install     'plato',
+5 verbose install     'requirejs',
+5 verbose install     'script-loader',
+5 verbose install     'style-loader',
+5 verbose install     'traceur',
+5 verbose install     'traceur-loader',
+5 verbose install     'url-loader',
+5 verbose install     'webpack',
+5 verbose install     'webpack-dev-server' ] ]
+6 info preinstall IoC6@0.0.1
+7 warn package.json karma-chrome-launcher@0.1.7 No README data
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping bluebird@~2.3.11 /Users/abraham/Documents/Git/webpack-ioc-es6
+10 verbose already installed skipping console-polyfill@~0.1.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+11 verbose already installed skipping httpplease@~0.15.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+12 verbose already installed skipping jquery@~2.1.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+13 verbose already installed skipping phaser@~2.2.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+14 verbose already installed skipping audiosprite@^0.4.0 /Users/abraham/Documents/Git/webpack-ioc-es6
+15 verbose already installed skipping css-loader@~0.9.0 /Users/abraham/Documents/Git/webpack-ioc-es6
+16 verbose already installed skipping es5-shim@^4.0.3 /Users/abraham/Documents/Git/webpack-ioc-es6
+17 verbose already installed skipping file-loader@~0.8.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+18 verbose already installed skipping gulp@~3.8.10 /Users/abraham/Documents/Git/webpack-ioc-es6
+19 verbose already installed skipping gulp-karma@0.0.4 /Users/abraham/Documents/Git/webpack-ioc-es6
+20 verbose already installed skipping gulp-plato@^1.0.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+21 verbose already installed skipping gulp-util@~3.0.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+22 verbose already installed skipping gulp-zip@~2.0.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+23 verbose already installed skipping html-webpack-plugin@~1.1.0 /Users/abraham/Documents/Git/webpack-ioc-es6
+24 verbose already installed skipping ink-docstrap@^0.4.12 /Users/abraham/Documents/Git/webpack-ioc-es6
+25 verbose already installed skipping jasmine-core@^2.1.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+26 verbose already installed skipping json-loader@~0.5.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+27 verbose already installed skipping karma@^0.12.27 /Users/abraham/Documents/Git/webpack-ioc-es6
+28 verbose already installed skipping karma-chrome-launcher@^0.1.5 /Users/abraham/Documents/Git/webpack-ioc-es6
+29 verbose already installed skipping karma-coverage@^0.2.7 /Users/abraham/Documents/Git/webpack-ioc-es6
+30 verbose cache add [ 'karma-firefox-launcher@^0.1.4', null ]
+31 verbose cache add name=undefined spec="karma-firefox-launcher@^0.1.4" args=["karma-firefox-launcher@^0.1.4",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'karma-firefox-launcher@^0.1.4',
+32 verbose parsed url   path: 'karma-firefox-launcher@^0.1.4',
+32 verbose parsed url   href: 'karma-firefox-launcher@^0.1.4' }
+33 verbose already installed skipping karma-htmlfile-reporter@^0.1.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+34 verbose already installed skipping karma-jasmine@^0.3.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+35 verbose cache add name="karma-firefox-launcher" spec="^0.1.4" args=["karma-firefox-launcher","^0.1.4"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '^0.1.4',
+36 verbose parsed url   path: '^0.1.4',
+36 verbose parsed url   href: '^0.1.4' }
+37 verbose addNamed [ 'karma-firefox-launcher', '^0.1.4' ]
+38 verbose addNamed [ null, '>=0.1.4-0 <0.2.0-0' ]
+39 verbose already installed skipping karma-phantomjs-launcher@^0.1.4 /Users/abraham/Documents/Git/webpack-ioc-es6
+40 silly lockFile f912c710-karma-firefox-launcher-0-1-4 karma-firefox-launcher@^0.1.4
+41 verbose lock karma-firefox-launcher@^0.1.4 /Users/abraham/.npm/f912c710-karma-firefox-launcher-0-1-4.lock
+42 verbose already installed skipping karma-requirejs@^0.2.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+43 verbose already installed skipping karma-traceur-preprocessor@^0.4.0 /Users/abraham/Documents/Git/webpack-ioc-es6
+44 silly addNameRange { name: 'karma-firefox-launcher',
+44 silly addNameRange   range: '>=0.1.4-0 <0.2.0-0',
+44 silly addNameRange   hasData: false }
+45 verbose already installed skipping karma-webpack@^1.3.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+46 verbose already installed skipping less-loader@~0.7.7 /Users/abraham/Documents/Git/webpack-ioc-es6
+47 verbose already installed skipping localtunnel@~1.5.0 /Users/abraham/Documents/Git/webpack-ioc-es6
+48 verbose already installed skipping phantomjs@^1.9.12 /Users/abraham/Documents/Git/webpack-ioc-es6
+49 verbose already installed skipping phaser-debug@~1.1.4 /Users/abraham/Documents/Git/webpack-ioc-es6
+50 verbose already installed skipping plato@^1.3.0 /Users/abraham/Documents/Git/webpack-ioc-es6
+51 verbose already installed skipping requirejs@^2.1.15 /Users/abraham/Documents/Git/webpack-ioc-es6
+52 verbose already installed skipping script-loader@~0.6.1 /Users/abraham/Documents/Git/webpack-ioc-es6
+53 verbose request where is /karma-firefox-launcher
+54 verbose request registry https://registry.npmjs.org/
+55 verbose request id e4512778bc9c16a2
+56 verbose url raw /karma-firefox-launcher
+57 verbose url resolving [ 'https://registry.npmjs.org/', './karma-firefox-launcher' ]
+58 verbose url resolved https://registry.npmjs.org/karma-firefox-launcher
+59 verbose request where is https://registry.npmjs.org/karma-firefox-launcher
+60 info trying registry request attempt 1 at 22:28:59
+61 verbose etag "4T3PWYXDE9CIZUAF3XBOVXMMX"
+62 http GET https://registry.npmjs.org/karma-firefox-launcher
+63 verbose already installed skipping style-loader@~0.8.2 /Users/abraham/Documents/Git/webpack-ioc-es6
+64 verbose already installed skipping traceur@0.0.79 /Users/abraham/Documents/Git/webpack-ioc-es6
+65 verbose already installed skipping traceur-loader@~0.6.3 /Users/abraham/Documents/Git/webpack-ioc-es6
+66 verbose already installed skipping url-loader@~0.5.5 /Users/abraham/Documents/Git/webpack-ioc-es6
+67 verbose already installed skipping webpack@~1.4.13 /Users/abraham/Documents/Git/webpack-ioc-es6
+68 verbose already installed skipping webpack-dev-server@~1.6.6 /Users/abraham/Documents/Git/webpack-ioc-es6
+69 http 200 https://registry.npmjs.org/karma-firefox-launcher
+70 silly registry.get cb [ 200,
+70 silly registry.get   { date: 'Wed, 07 Jan 2015 21:29:00 GMT',
+70 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+70 silly registry.get     etag: '"EIQL6W2VFQRJLWTBS2VP3SUDF"',
+70 silly registry.get     'content-type': 'application/json',
+70 silly registry.get     'cache-control': 'max-age=60',
+70 silly registry.get     'content-length': '12089',
+70 silly registry.get     'accept-ranges': 'bytes',
+70 silly registry.get     via: '1.1 varnish',
+70 silly registry.get     age: '0',
+70 silly registry.get     'x-served-by': 'cache-ams4144-AMS',
+70 silly registry.get     'x-cache': 'HIT',
+70 silly registry.get     'x-cache-hits': '1',
+70 silly registry.get     'x-timer': 'S1420666139.922464,VS0,VE631',
+70 silly registry.get     vary: 'Accept',
+70 silly registry.get     'keep-alive': 'timeout=10, max=50',
+70 silly registry.get     connection: 'Keep-Alive' } ]
+71 silly addNameRange number 2 { name: 'karma-firefox-launcher',
+71 silly addNameRange   range: '>=0.1.4-0 <0.2.0-0',
+71 silly addNameRange   hasData: true }
+72 silly addNameRange versions [ 'karma-firefox-launcher',
+72 silly addNameRange   [ '0.0.1',
+72 silly addNameRange     '0.0.2',
+72 silly addNameRange     '0.0.3',
+72 silly addNameRange     '0.1.0',
+72 silly addNameRange     '0.1.1',
+72 silly addNameRange     '0.1.2',
+72 silly addNameRange     '0.1.3',
+72 silly addNameRange     '0.1.4' ] ]
+73 verbose addNamed [ 'karma-firefox-launcher', '0.1.4' ]
+74 verbose addNamed [ '0.1.4', '0.1.4' ]
+75 silly lockFile 3792356a-karma-firefox-launcher-0-1-4 karma-firefox-launcher@0.1.4
+76 verbose lock karma-firefox-launcher@0.1.4 /Users/abraham/.npm/3792356a-karma-firefox-launcher-0-1-4.lock
+77 silly lockFile aec5aa3f-karma-firefox-launcher-0-1-4-tgz https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+78 verbose lock https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz /Users/abraham/.npm/aec5aa3f-karma-firefox-launcher-0-1-4-tgz.lock
+79 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz',
+79 verbose addRemoteTarball   '5d4abb4abba0e45e83fd94b1f6ff84ec46929c6b' ]
+80 info retry fetch attempt 1 at 22:29:00
+81 verbose fetch to= /var/folders/7r/mmf50kkn6pv6zllknyymmtr00000gn/T/npm-3933-Mn39Q1KU/registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+82 http GET https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+83 http 200 https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+84 silly lockFile aec5aa3f-karma-firefox-launcher-0-1-4-tgz https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+85 silly lockFile aec5aa3f-karma-firefox-launcher-0-1-4-tgz https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz
+86 silly lockFile 3792356a-karma-firefox-launcher-0-1-4 karma-firefox-launcher@0.1.4
+87 silly lockFile 3792356a-karma-firefox-launcher-0-1-4 karma-firefox-launcher@0.1.4
+88 silly lockFile f912c710-karma-firefox-launcher-0-1-4 karma-firefox-launcher@^0.1.4
+89 silly lockFile f912c710-karma-firefox-launcher-0-1-4 karma-firefox-launcher@^0.1.4
+90 silly resolved [ { name: 'karma-firefox-launcher',
+90 silly resolved     version: '0.1.4',
+90 silly resolved     description: 'A Karma plugin. Launcher for Firefox.',
+90 silly resolved     main: 'index.js',
+90 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+90 silly resolved     repository:
+90 silly resolved      { type: 'git',
+90 silly resolved        url: 'git://github.com/karma-runner/karma-firefox-launcher.git' },
+90 silly resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'firefox' ],
+90 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+90 silly resolved     dependencies: {},
+90 silly resolved     peerDependencies: { karma: '>=0.9' },
+90 silly resolved     license: 'MIT',
+90 silly resolved     devDependencies:
+90 silly resolved      { grunt: '~0.4.1',
+90 silly resolved        'grunt-npm': '~0.0.2',
+90 silly resolved        'grunt-bump': '~0.0.7',
+90 silly resolved        'grunt-auto-release': '~0.0.2' },
+90 silly resolved     contributors:
+90 silly resolved      [ [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object],
+90 silly resolved        [Object] ],
+90 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-firefox-launcher/issues' },
+90 silly resolved     homepage: 'https://github.com/karma-runner/karma-firefox-launcher',
+90 silly resolved     _id: 'karma-firefox-launcher@0.1.4',
+90 silly resolved     dist:
+90 silly resolved      { shasum: '5d4abb4abba0e45e83fd94b1f6ff84ec46929c6b',
+90 silly resolved        tarball: 'http://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz' },
+90 silly resolved     _from: 'karma-firefox-launcher@^0.1.4',
+90 silly resolved     _npmVersion: '1.4.4',
+90 silly resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+90 silly resolved     maintainers: [ [Object] ],
+90 silly resolved     directories: {},
+90 silly resolved     _shasum: '5d4abb4abba0e45e83fd94b1f6ff84ec46929c6b',
+90 silly resolved     _resolved: 'https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.4.tgz' } ]
+91 info install karma-firefox-launcher@0.1.4 into /Users/abraham/Documents/Git/webpack-ioc-es6
+92 info installOne karma-firefox-launcher@0.1.4
+93 verbose node_modules/karma-firefox-launcher unbuild
+94 verbose tar unpack /Users/abraham/.npm/karma-firefox-launcher/0.1.4/package.tgz
+95 silly lockFile 4870f173-e-modules-karma-firefox-launcher tar:///Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/karma-firefox-launcher
+96 verbose lock tar:///Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/karma-firefox-launcher /Users/abraham/.npm/4870f173-e-modules-karma-firefox-launcher.lock
+97 silly lockFile 8d5a8010-refox-launcher-0-1-4-package-tgz tar:///Users/abraham/.npm/karma-firefox-launcher/0.1.4/package.tgz
+98 verbose lock tar:///Users/abraham/.npm/karma-firefox-launcher/0.1.4/package.tgz /Users/abraham/.npm/8d5a8010-refox-launcher-0-1-4-package-tgz.lock
+99 silly gunzTarPerm modes [ '755', '644' ]
+100 silly gunzTarPerm extractEntry package.json
+101 silly gunzTarPerm extractEntry LICENSE
+102 silly gunzTarPerm extractEntry index.js
+103 silly lockFile 4870f173-e-modules-karma-firefox-launcher tar:///Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/karma-firefox-launcher
+104 silly lockFile 4870f173-e-modules-karma-firefox-launcher tar:///Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/karma-firefox-launcher
+105 silly lockFile 8d5a8010-refox-launcher-0-1-4-package-tgz tar:///Users/abraham/.npm/karma-firefox-launcher/0.1.4/package.tgz
+106 silly lockFile 8d5a8010-refox-launcher-0-1-4-package-tgz tar:///Users/abraham/.npm/karma-firefox-launcher/0.1.4/package.tgz
+107 info preinstall karma-firefox-launcher@0.1.4
+108 verbose readDependencies using package.json deps
+109 verbose readDependencies using package.json deps
+110 silly resolved []
+111 verbose about to build /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/karma-firefox-launcher
+112 info build /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/karma-firefox-launcher
+113 verbose linkStuff [ false,
+113 verbose linkStuff   false,
+113 verbose linkStuff   false,
+113 verbose linkStuff   '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules' ]
+114 info linkStuff karma-firefox-launcher@0.1.4
+115 verbose linkBins karma-firefox-launcher@0.1.4
+116 verbose linkMans karma-firefox-launcher@0.1.4
+117 verbose rebuildBundles karma-firefox-launcher@0.1.4
+118 info install karma-firefox-launcher@0.1.4
+119 info postinstall karma-firefox-launcher@0.1.4
+120 info build /Users/abraham/Documents/Git/webpack-ioc-es6
+121 verbose linkStuff [ false, false, false, '/Users/abraham/Documents/Git' ]
+122 info linkStuff IoC6@0.0.1
+123 verbose linkBins IoC6@0.0.1
+124 verbose linkMans IoC6@0.0.1
+125 verbose rebuildBundles IoC6@0.0.1
+126 verbose rebuildBundles [ '.bin',
+126 verbose rebuildBundles   'audiosprite',
+126 verbose rebuildBundles   'bluebird',
+126 verbose rebuildBundles   'console-polyfill',
+126 verbose rebuildBundles   'css-loader',
+126 verbose rebuildBundles   'es5-shim',
+126 verbose rebuildBundles   'file-loader',
+126 verbose rebuildBundles   'gulp',
+126 verbose rebuildBundles   'gulp-doxx',
+126 verbose rebuildBundles   'gulp-jsdoc',
+126 verbose rebuildBundles   'gulp-karma',
+126 verbose rebuildBundles   'gulp-plato',
+126 verbose rebuildBundles   'gulp-util',
+126 verbose rebuildBundles   'gulp-yuidoc',
+126 verbose rebuildBundles   'gulp-zip',
+126 verbose rebuildBundles   'html-webpack-plugin',
+126 verbose rebuildBundles   'httpplease',
+126 verbose rebuildBundles   'ink-docstrap',
+126 verbose rebuildBundles   'istanbul',
+126 verbose rebuildBundles   'istanbul-instrumenter-loader',
+126 verbose rebuildBundles   'jasmine-core',
+126 verbose rebuildBundles   'jquery',
+126 verbose rebuildBundles   'json-loader',
+126 verbose rebuildBundles   'karma',
+126 verbose rebuildBundles   'karma-chrome-launcher',
+126 verbose rebuildBundles   'karma-coverage',
+126 verbose rebuildBundles   'karma-firefox-launcher',
+126 verbose rebuildBundles   'karma-htmlfile-reporter',
+126 verbose rebuildBundles   'karma-jasmine',
+126 verbose rebuildBundles   'karma-phantomjs-launcher',
+126 verbose rebuildBundles   'karma-requirejs',
+126 verbose rebuildBundles   'karma-traceur-preprocessor',
+126 verbose rebuildBundles   'karma-webpack',
+126 verbose rebuildBundles   'less',
+126 verbose rebuildBundles   'less-loader',
+126 verbose rebuildBundles   'localtunnel',
+126 verbose rebuildBundles   'phantomjs',
+126 verbose rebuildBundles   'phaser',
+126 verbose rebuildBundles   'phaser-debug',
+126 verbose rebuildBundles   'plato',
+126 verbose rebuildBundles   'requirejs',
+126 verbose rebuildBundles   'script-loader',
+126 verbose rebuildBundles   'style-loader',
+126 verbose rebuildBundles   'traceur',
+126 verbose rebuildBundles   'traceur-loader',
+126 verbose rebuildBundles   'url-loader',
+126 verbose rebuildBundles   'webpack',
+126 verbose rebuildBundles   'webpack-dev-server' ]
+127 verbose rebuild bundle /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/gulp-doxx
+128 info build /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/gulp-doxx
+129 info preinstall gulp-doxx@0.0.2
+130 verbose linkStuff [ false,
+130 verbose linkStuff   false,
+130 verbose linkStuff   false,
+130 verbose linkStuff   '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules' ]
+131 info linkStuff gulp-doxx@0.0.2
+132 verbose linkBins gulp-doxx@0.0.2
+133 verbose linkMans gulp-doxx@0.0.2
+134 verbose rebuildBundles gulp-doxx@0.0.2
+135 verbose rebuildBundles [ '.bin',
+135 verbose rebuildBundles   'debug',
+135 verbose rebuildBundles   'dox',
+135 verbose rebuildBundles   'doxx',
+135 verbose rebuildBundles   'lodash',
+135 verbose rebuildBundles   'marked',
+135 verbose rebuildBundles   'through2',
+135 verbose rebuildBundles   'vinyl' ]
+136 info install gulp-doxx@0.0.2
+137 info postinstall gulp-doxx@0.0.2
+138 verbose rebuild bundle /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/gulp-jsdoc
+139 info build /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/gulp-jsdoc
+140 info preinstall gulp-jsdoc@0.1.4
+141 verbose linkStuff [ false,
+141 verbose linkStuff   false,
+141 verbose linkStuff   false,
+141 verbose linkStuff   '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules' ]
+142 info linkStuff gulp-jsdoc@0.1.4
+143 verbose linkBins gulp-jsdoc@0.1.4
+144 verbose linkMans gulp-jsdoc@0.1.4
+145 verbose rebuildBundles gulp-jsdoc@0.1.4
+146 verbose rebuildBundles [ '.bin',
+146 verbose rebuildBundles   'chalk',
+146 verbose rebuildBundles   'gulp-util',
+146 verbose rebuildBundles   'ink-docstrap',
+146 verbose rebuildBundles   'jsdoc',
+146 verbose rebuildBundles   'marked',
+146 verbose rebuildBundles   'taffydb',
+146 verbose rebuildBundles   'text-table',
+146 verbose rebuildBundles   'through2',
+146 verbose rebuildBundles   'vinyl-fs',
+146 verbose rebuildBundles   'wrench' ]
+147 info install gulp-jsdoc@0.1.4
+148 info postinstall gulp-jsdoc@0.1.4
+149 verbose rebuild bundle /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/gulp-yuidoc
+150 info build /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/gulp-yuidoc
+151 info preinstall gulp-yuidoc@0.1.2
+152 verbose linkStuff [ false,
+152 verbose linkStuff   false,
+152 verbose linkStuff   false,
+152 verbose linkStuff   '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules' ]
+153 info linkStuff gulp-yuidoc@0.1.2
+154 verbose linkBins gulp-yuidoc@0.1.2
+155 verbose linkMans gulp-yuidoc@0.1.2
+156 verbose rebuildBundles gulp-yuidoc@0.1.2
+157 verbose rebuildBundles [ '.bin',
+157 verbose rebuildBundles   'chalk',
+157 verbose rebuildBundles   'gulp-util',
+157 verbose rebuildBundles   'text-table',
+157 verbose rebuildBundles   'through2',
+157 verbose rebuildBundles   'vinyl-fs',
+157 verbose rebuildBundles   'yuidocjs' ]
+158 info install gulp-yuidoc@0.1.2
+159 info postinstall gulp-yuidoc@0.1.2
+160 verbose rebuild bundle /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/istanbul
+161 info build /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/istanbul
+162 info preinstall istanbul@0.3.5
+163 verbose linkStuff [ false,
+163 verbose linkStuff   false,
+163 verbose linkStuff   false,
+163 verbose linkStuff   '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules' ]
+164 info linkStuff istanbul@0.3.5
+165 verbose linkBins istanbul@0.3.5
+166 verbose link bins [ { istanbul: './lib/cli.js' },
+166 verbose link bins   '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/.bin',
+166 verbose link bins   false ]
+167 verbose linkMans istanbul@0.3.5
+168 verbose rebuildBundles istanbul@0.3.5
+169 verbose rebuildBundles [ '.bin',
+169 verbose rebuildBundles   'abbrev',
+169 verbose rebuildBundles   'async',
+169 verbose rebuildBundles   'escodegen',
+169 verbose rebuildBundles   'esprima',
+169 verbose rebuildBundles   'fileset',
+169 verbose rebuildBundles   'handlebars',
+169 verbose rebuildBundles   'js-yaml',
+169 verbose rebuildBundles   'mkdirp',
+169 verbose rebuildBundles   'nopt',
+169 verbose rebuildBundles   'once',
+169 verbose rebuildBundles   'resolve',
+169 verbose rebuildBundles   'which',
+169 verbose rebuildBundles   'wordwrap' ]
+170 error Error: EACCES, unlink '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/.bin/istanbul'
+170 error  { [Error: EACCES, unlink '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/.bin/istanbul']
+170 error   errno: 3,
+170 error   code: 'EACCES',
+170 error   path: '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/.bin/istanbul' }
+171 error Please try running this command again as root/Administrator.
+172 error System Darwin 14.0.0
+173 error command "node" "/usr/local/bin/npm" "install"
+174 error cwd /Users/abraham/Documents/Git/webpack-ioc-es6
+175 error node -v v0.10.33
+176 error npm -v 1.4.28
+177 error path /Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/.bin/istanbul
+178 error code EACCES
+179 error errno 3
+180 error stack Error: EACCES, unlink '/Users/abraham/Documents/Git/webpack-ioc-es6/node_modules/.bin/istanbul'
+181 verbose exit [ 3, true ]
