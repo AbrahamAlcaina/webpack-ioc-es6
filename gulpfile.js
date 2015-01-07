@@ -49,7 +49,7 @@ gulp.task('travis', function(done) {
 gulp.task('tdd', function(done) {
     karma.start({
         configFile: __dirname + '/karma.conf.js',
-        singleRun: true,
+        singleRun: false,
         autoWatch: true
     }, done);
 });
