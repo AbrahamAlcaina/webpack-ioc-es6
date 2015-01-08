@@ -1,6 +1,9 @@
 'use strict';
 
-import { Injector } from '../../di';
+import {
+	Injector
+}
+from '../../di';
 import A from './a';
 
 describe('test annotations', () => {
@@ -8,13 +11,24 @@ describe('test annotations', () => {
 		// arrange
 		var injector = new Injector();
 		// act
-		var a = injector.get(A);
+		var sut = injector.get(A);
 		// assert
-		expect(a).not.toBeUndefined();
-		expect(a.b).not.toBeUndefined();
+		expect(sut).not.toBeUndefined();
+		expect(sut.b).not.toBeUndefined();
 	});
 
-	it('should execute "do" in A & B', ()=>{
+	it('should create an A class with stub', () => {
+		// arrange
+		var stub = {};
+		// act
+		var sut = new A(stub);
+		// assert
+		expect(sut).not.toBeUndefined();
+		expect(sut.b).not.toBeUndefined();
+		expect(sut.b).toEqual(stub);
+	});
+
+	it('should execute "do" in A & B', () => {
 		// arrange 
 		var injector = new Injector();
 		var a = injector.get(A);
@@ -23,5 +37,17 @@ describe('test annotations', () => {
 		// assert
 		expect(a.isDoExecuted).toBe(true);
 		expect(a.b.isDoExecuted).toBe(true);
+	});
+
+	it('should execute "do" in A & the injected mock', () => {
+		// arrange
+		var mock = { do: ()=>{}};
+		spyOn(mock, 'do');
+		var sut = new A(mock);
+		// act
+		
+		sut.do();
+		// assert
+		expect(mock.do).toHaveBeenCalled();
 	});
 });
